@@ -1,0 +1,7 @@
+n = int(input())
+arr = list(map(int, input().split()))
+x = max(arr)
+print(x)
+arr.remove(x)
+print(arr)
+print(max(arr))
