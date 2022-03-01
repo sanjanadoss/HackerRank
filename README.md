@@ -1,5 +1,5 @@
-# HackerRank and Leetcode Problems 
+# HackerRank and Leetcode Problems
 
-### programming language of choice : py 
+### programming language of choice : py
 
-last update on : 27-02-22
+last update on : 01-03-22
