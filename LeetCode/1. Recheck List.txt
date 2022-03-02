@@ -1,0 +1,8 @@
+ARRAYS
+
+1. Missing Number
+2. Contains Duplicate
+3. Single Number
+4. Find Disappeared Number
+5. Convert 1d to 2d
+6. Plus one
