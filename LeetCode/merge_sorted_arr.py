@@ -1,6 +1,5 @@
-https://leetcode.com/problems/merge-sorted-array/discuss/?currentPage=1&orderBy=most_votes&query=
+#https://leetcode.com/problems/merge-sorted-array/discuss/?currentPage=1&orderBy=most_votes&query=
 
-Easy
 
        #Adding elements to nums1 from the back
         last = m+n-1
