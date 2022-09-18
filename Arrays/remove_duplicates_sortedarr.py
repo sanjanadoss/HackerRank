@@ -1,8 +1,0 @@
-#https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/
-
-x = 1
-for i in range(len(nums)-1):
-    if(nums[i]!=nums[i+1]):
-        nums[x] = nums[i+1]
-        x+=1
-return(x)
