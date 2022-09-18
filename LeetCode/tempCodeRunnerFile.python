@@ -1,13 +1,24 @@
+from audioop import reverse
 
-string = "geeks for geeks"
-string = string.replace(" ", "")
-ans_dict = {}
-for i in string:
-    if i in ans_dict:
-        ans_dict[i] += 1
-    else:
-        ans_dict[i] = 1
-a = sorted(ans_dict.items(), key=lambda x: x[1])
-for i in range(len(a)):
-    print("{}".format(a[i]), end="")
-#print(ans_dict)
+
+def intersection(new, new1):
+    ans = [value for value in new if value in new1]
+    return ans
+
+x1 = "1, 2, 3, 4; 4, 5, 6"
+x1 = x1.replace(" ","")
+x1 = x1.replace(",", "")
+end = len(x1)-1
+new = []
+new1 = []
+while x1[end]!=";":
+    new.append(x1[end])
+    end -= 1
+begin = end-1
+while begin>=0:
+    new1.append(x1[begin])
+    begin -= 1
+new.sort()
+new1.sort()
+
+print(intersection(new, new1))
