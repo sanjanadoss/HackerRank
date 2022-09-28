@@ -5,6 +5,9 @@ def maxProfit(self, prices):
 n--> length of array
 Time Complexity: O(n)
 Space Complexity: O(1)
+sliding window is a comp. technique used to reduce the 
+use of nested loops and replace it with a single loop
+to reduce complexity
     """
     
     l = 0 #buy
